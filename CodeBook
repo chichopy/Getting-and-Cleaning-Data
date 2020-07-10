@@ -1,0 +1,14 @@
+Introduction.
+
+The scrip uses the data obtain from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The data provides information regarding theaccelerometers from the Samsung Galaxy S smartphone.
+
+Steps.
+1) The zip file is unzip
+
+2) The data is taken from the folder "UCI HAR Dataset".
+Inside that folder, we read the files:'activity_labels' and 'features'.
+We also go deeper inside that folder, and read the data: 'X_test' and 'y_test'. Which is inside the test folder
+We also go into the train folder, and read the data: 'X_train' and 'y_train'
+
+3) After reading the above mentioned files, we process to rename the columns of the X_train file with the information from the features file
